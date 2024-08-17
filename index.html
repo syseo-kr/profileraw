@@ -5,17 +5,51 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Welcome to Sooyon's Webpage</title>
+	<style>
+        /* 전체 페이지에 대한 기본 설정 */
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* 중앙에 배치될 컨텐츠 박스 */
+        .container {
+            width: 50%; /* 화면 너비의 50%를 차지 */
+            max-width: 30cm; /* 최대 너비를 30cm로 설정 */
+            padding: 20px; /* 내용 주변에 패딩 추가 */
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 미묘한 그림자 */
+            border-radius: 8px;
+        }
+
+        h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0 0 15px 0; /* 각 요소에 하단 패딩 추가 */
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    	</style>
 </head>
 
-<header>
-	<div id="pic">
-		<img src="seos.jpg" width="60" height="80" alt="서수연 프로필" style="float: left; margin-right: 15px;">
-	</div>
-	<h1>Welcome to Sooyon's Webpage</h1>
-	<div style="clear: both;"></div>
-</header>
+
 	
 <body>
+<div class="container">
+<header>
+        <div id="pic">
+        <img src="seos.jpg" width="60" height="80" alt="서수연 프로필" style="float: left; margin-right: 15px;">
+        </div>
+        <h1>Welcome to Sooyon's Webpage</h1>
+        <div style="clear: both;"></div>
+</header>
 <h2>Introduction</h2>
 	<!-- <img src="seos.jpg" width="60" height="80" alt="서수연 프로필" style="float: left; margin-right: 15px;"> -->
 	<p> Hi, I am Sooyon Seo from South Korea.</p>
@@ -115,8 +149,9 @@
 <h3>Social Media</h3>
 	<a href="https://www.linkedin.com/in/sooyon-seo/">LinkedIn</a><br>
 	<a href="https://www.instagram.com/ord_zhl_/">Instagram</a>
-</body>
-</html>
+
+</div>
+
 
 
   
