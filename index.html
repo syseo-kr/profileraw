@@ -5,25 +5,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Welcome to Sooyon's Webpage</title>
-	<style>
-        /* 전체 페이지에 대한 기본 설정 */
+    <style>
         body {
             display: flex;
             justify-content: center;
+            align-items: center;
+            height: 100vh; /* 화면 전체 높이를 차지 */
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
         }
 
-        /* 중앙에 배치될 컨텐츠 박스 */
         .container {
-            width: 50%; /* 화면 너비의 50%를 차지 */
-            max-width: 30cm; /* 최대 너비를 30cm로 설정 */
-            padding: 20px; /* 내용 주변에 패딩 추가 */
+            width: 80vw; /* 화면 너비의 80%로 설정 */
+            max-width: 1200px; /* 최대 너비를 1200px로 설정 */
+            padding: 20px;
             background-color: #ffffff;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 미묘한 그림자 */
             border-radius: 8px;
+            box-sizing: border-box; /* 패딩을 포함한 전체 크기 계산 */
         }
 
         h1, h2, h3, p, ul, li, a {
@@ -36,7 +37,7 @@
             border-top: 1px solid #ccc;
             margin: 20px 0;
         }
-    	</style>
+    </style>
 </head>
 
 
