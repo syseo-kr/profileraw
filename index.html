@@ -17,9 +17,10 @@
         }
 	header {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 70vw; 
+	    top: 0;
+            left: 50%; /* 화면의 왼쪽에서 50% */
+	    transform: translateX(-50%); /* 자신을 왼쪽으로 50% 이동하여 정확히 중앙 정렬 */
+	    width: 70vw; 
             background-color: #333;
             color: white;
             text-align: center;
